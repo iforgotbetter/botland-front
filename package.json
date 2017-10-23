@@ -1,0 +1,20 @@
+{
+  "name": "botland-front",
+  "version": "1.0.0",
+  "description": "Bot Land Front Page",
+  "main": "index.html",
+  "repository": "https://github.com/HiDeoo/botland-front",
+  "author": "HiDeo <hideo.sup@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn run build:css && yarn run build:css --watch",
+    "build": "yarn run build:css && postcss --use autoprefixer --output dist/style.css dist/style.css",
+    "build:css": "node-sass assets/sass/style.scss dist/style.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "7.1.5",
+    "bulma": "0.6.0",
+    "node-sass": "4.5.3",
+    "postcss-cli": "4.1.1"
+  }
+}
