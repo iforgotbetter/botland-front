@@ -1,20 +1,11 @@
 @charset "utf-8";
 
 @import "../../node_modules/bulma/sass/utilities/initial-variables";
-
-/**
- * Navbar
- * @see https://bulma.io/documentation/components/navbar/#variables
- */
-$navbar-height: 90px;
-$navbar-item-img-max-height: 60px;
-
 @import "../../node_modules/bulma/sass/utilities/_all";
 @import "../../node_modules/bulma/sass/base/_all";
 @import "../../node_modules/bulma/sass/elements/button";
 @import "../../node_modules/bulma/sass/elements/container";
 @import "../../node_modules/bulma/sass/elements/content";
-@import "../../node_modules/bulma/sass/components/navbar";
 @import "../../node_modules/bulma/sass/layout/footer";
 @import "../../node_modules/bulma/sass/layout/section";
 

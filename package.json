@@ -7,8 +7,10 @@
   "author": "HiDeo <hideo.sup@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn run build:css && yarn run build:css --watch",
-    "build": "yarn run build:css && postcss --use autoprefixer --output dist/style.css dist/style.css",
+    "dev": "yarn run devcommands && yarn run build:css --watch",
+    "devcommands": "yarn run moveimages && yarn run build:css",
+    "build": "yarn run devcommands && postcss --use autoprefixer --output dist/style.css dist/style.css",
+    "moveimages": "cp -r assets/images/* dist/",
     "build:css": "node-sass assets/sass/style.scss dist/style.css"
   },
   "devDependencies": {
