@@ -1,6 +1,3 @@
-// Had an error not loading variables 
-@import "../../node_modules/bulma/sass/utilities/_all";
-
 // set font the same as Bot Land alpha -> Lato
 // Source Code Pro is also used but only on buttons, some caps, others like the bottom left green button are not
 // just how the main style from Bulma sets its font 
@@ -74,8 +71,6 @@ $circuitboardImage: "data:image/svg+xml,%3Csvg width='304' height='304' viewBox=
   }
 }
 
-
-
 .description {
   margin: 100px 0;
 }
@@ -85,7 +80,6 @@ $circuitboardImage: "data:image/svg+xml,%3Csvg width='304' height='304' viewBox=
 }
 
 .download {
-
   display: inline-flex;
   align-items: center;
   margin: 40px 0;
@@ -98,15 +92,10 @@ $circuitboardImage: "data:image/svg+xml,%3Csvg width='304' height='304' viewBox=
       box-shadow: none;
       transform: translate(3px, 3px);
     }
-
   }
-
-
-
 }
 
 .footer {
-
   position: relative;
   padding: 3rem; // 6 on bottom for the image
   background-color: #39c47f;
@@ -124,7 +113,6 @@ $circuitboardImage: "data:image/svg+xml,%3Csvg width='304' height='304' viewBox=
 
   // to be used inside a container (with max widths)
   .border-pattern {
-
     position: absolute;
     width: 100%;
     height: 30px;
@@ -170,9 +158,7 @@ $circuitboardImage: "data:image/svg+xml,%3Csvg width='304' height='304' viewBox=
         width: 100%;
         z-index: 1;
       }
-      
     }
-
   }
 
   .logo {
@@ -181,11 +167,9 @@ $circuitboardImage: "data:image/svg+xml,%3Csvg width='304' height='304' viewBox=
     @include mobile {
       margin-top: 50px;
     }
-
   }
 
   .cpu {
-
     &.fixed {
       position: absolute;
       top: calc(-3rem - 50px);
@@ -210,9 +194,7 @@ $circuitboardImage: "data:image/svg+xml,%3Csvg width='304' height='304' viewBox=
       &:hover {
         color: lighten(rgb(252, 203, 74), 10%);
       }
-
     }
-
   }
 
   .social-icons {
@@ -263,9 +245,6 @@ $circuitboardImage: "data:image/svg+xml,%3Csvg width='304' height='304' viewBox=
           background-position-y: 0;
         }
       }
-
     }
-
   }
-
 }
