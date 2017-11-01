@@ -22,6 +22,7 @@ $circuitboardImage: "data:image/svg+xml,%3Csvg width='304' height='304' viewBox=
 .section.content {
   background-color: $circuitboardColor;
   background-image: url($circuitboardImage);
+  padding-bottom: 8rem;
 
   &:not(:last-child) {
     margin-bottom: 0;
@@ -72,6 +73,8 @@ $circuitboardImage: "data:image/svg+xml,%3Csvg width='304' height='304' viewBox=
     }
   }
 }
+
+
 
 .description {
   margin: 100px 0;

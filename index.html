@@ -31,9 +31,10 @@
         <meta name="msapplication-config" content="./dist/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
+        <!-- should add OGP & JSONLD tags -->
+
         <!-- styles -->
         <link rel="stylesheet" href="./dist/style.css" />
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
 
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700" rel="stylesheet">
@@ -50,9 +51,9 @@
                 <h1>An online strategy game with a focus on automation</h1>
 
                 <div class="download">
-                    <img src="./dist/single-res.png">
+                    <img class="is-hidden-mobile" src="./dist/single-res.png">
                     <a class="button is-large is-link" href="https://play.bot.land" title="Play Bot Land">Play in browser now!</a>
-                    <img src="./dist/single-res.png">
+                    <img class="is-hidden-mobile" src="./dist/single-res.png">
                 </div>
 
                 <div class="description">
@@ -60,7 +61,7 @@
                     <h1 class="title">What is Bot Land?</h1>
 
                     <div class="video-wrapper">
-                        <!-- <iframe src="https://www.youtube.com/embed/BLk683YK-tM?rel=0&amp;showinfo=0" allowfullscreen></iframe> -->
+                        <iframe src="https://www.youtube.com/embed/BLk683YK-tM?rel=0&amp;showinfo=0" allowfullscreen></iframe>
                     </div>
 
                 </div>
@@ -69,11 +70,11 @@
 
                     <h3>Design your bot</h3>
 
-                    <!-- <video autoplay loop>
+                    <video autoplay loop>
                         <source src="./dist/cosmetics.webm" type="video/webm">
                         <source src="./dist/cosmetics.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                    </video> -->
+                    </video>
 
                 </div>
 
@@ -81,11 +82,11 @@
 
                     <h3>Choose your hardware</h3>
                     
-                    <!-- <video autoplay loop>
+                    <video autoplay loop>
                         <source src="./dist/hardware.webm" type="video/webm">
                         <source src="./dist/hardware.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                    </video> -->
+                    </video>
 
                 </div>
 
@@ -93,11 +94,11 @@
                     
                     <h3>Tell it what to do</h3>
 
-                    <!-- <video autoplay loop>
+                    <video autoplay loop>
                         <source src="./dist/script.webm" type="video/webm">
                         <source src="./dist/script.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                    </video> -->
+                    </video>
 
                 </div>
 
@@ -105,18 +106,21 @@
 
                     <h3>Battle other players!</h3>
 
-                    <!-- <video autoplay loop>
+                    <video autoplay loop>
                         <source src="./dist/battle.webm" type="video/webm">
                         <source src="./dist/battle.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                    </video> -->
+                    </video>
 
                 </div>
 
                 <div class="download">
-                    <a class="button is-large is-link play-button" href="https://play.bot.land" title="Play Bot Land">Play in browser now!</a>
-                    <!-- <div class="details">iOS and Android apps coming in 2018</div> -->
+                    <img class="is-hidden-mobile" src="./dist/single-res.png">
+                    <a class="button is-large is-link" href="https://play.bot.land" title="Play Bot Land">Play in browser now!</a>
+                    <img class="is-hidden-mobile" src="./dist/single-res.png">
                 </div>
+
+                <div>iOS and Android apps coming in 2018</div>
             
             </div>
 
@@ -170,8 +174,6 @@
                         </div>
 
                     </div>
-
-                    
 
                     <div class="bottom">
                         <p>Version: Alpha | Copyright 2017 | <a href="#wikiLink">Wiki</a> | <a href="#otherLink">Other Link</a> | <a href="#otherLink">Go Crazy</a>  </p>
