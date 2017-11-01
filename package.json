@@ -10,7 +10,7 @@
     "dev": "yarn run devcommands && yarn run build:css --watch",
     "devcommands": "yarn run moveimages && yarn run build:css",
     "build": "yarn run devcommands && postcss --use autoprefixer --output dist/style.css dist/style.css",
-    "moveimages": "mkdir dist && cp -r assets/images/* dist/", // this is not setup properly to handle yarn run dev restarts as it will fail since the dist folder already exists.
+    "moveimages": "mkdir dist && cp -r assets/images/* dist/",
     "build:css": "node-sass assets/sass/style.scss dist/style.css"
   },
   "devDependencies": {
