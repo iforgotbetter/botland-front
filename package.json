@@ -8,10 +8,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "yarn run devcommands && yarn run build:css --watch",
-    "devcommands": "yarn run moveimages && yarn run movefonts && yarn run build:css",
+    "devcommands": "yarn run moveimages && yarn run build:css",
     "build": "yarn run devcommands && postcss --use autoprefixer --output dist/style.css dist/style.css",
     "moveimages": "cp -r assets/images/* dist/",
-    "movefonts": "cp -r assets/fonts/* dist/fonts/",
     "build:css": "node-sass assets/sass/style.scss dist/style.css"
   },
   "devDependencies": {
