@@ -10,16 +10,15 @@
 
         <meta charset="utf-8">
 
-        <!-- http://t.co/dKP3o1e -->
-		    <meta name="HandheldFriendly" content="True">
-		    <meta name="MobileOptimized" content="320">
-		    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         
         <!--iOS -->
-		    <meta name="apple-mobile-web-app-capable" content="yes">
-		    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-		    <link rel="apple-touch-startup-image" href="">
-		    <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-startup-image" href="">
+        <meta name="mobile-web-app-capable" content="yes">
         
         <!-- favicons -->
         <link rel="apple-touch-icon" sizes="180x180" href="./dist/favicons/apple-touch-icon.png">
@@ -34,7 +33,10 @@
 
         <!-- styles -->
         <link rel="stylesheet" href="./dist/style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700" rel="stylesheet">
 
     </head>
 
@@ -45,10 +47,12 @@
             <div class="container">
                 
                 <img src="https://i.imgur.com/KUdBOaq.png" alt="Bot Land" class="logo" />
-                <h2>An online strategy game with a focus on automation</h2>
+                <h1>An online strategy game with a focus on automation</h1>
 
                 <div class="download">
-                    <a class="button is-large is-link play-button" href="https://play.bot.land" title="Play Bot Land">Play in browser now!</a>
+                    <img src="./dist/single-res.png">
+                    <a class="button is-large is-link" href="https://play.bot.land" title="Play Bot Land">Play in browser now!</a>
+                    <img src="./dist/single-res.png">
                 </div>
 
                 <div class="description">
@@ -56,7 +60,7 @@
                     <h1 class="title">What is Bot Land?</h1>
 
                     <div class="video-wrapper">
-                        <iframe src="https://www.youtube.com/embed/BLk683YK-tM?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+                        <!-- <iframe src="https://www.youtube.com/embed/BLk683YK-tM?rel=0&amp;showinfo=0" allowfullscreen></iframe> -->
                     </div>
 
                 </div>
@@ -65,11 +69,11 @@
 
                     <h3>Design your bot</h3>
 
-                    <video autoplay loop>
+                    <!-- <video autoplay loop>
                         <source src="./dist/cosmetics.webm" type="video/webm">
                         <source src="./dist/cosmetics.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                    </video>
+                    </video> -->
 
                 </div>
 
@@ -77,11 +81,11 @@
 
                     <h3>Choose your hardware</h3>
                     
-                    <video autoplay loop>
+                    <!-- <video autoplay loop>
                         <source src="./dist/hardware.webm" type="video/webm">
                         <source src="./dist/hardware.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                    </video>
+                    </video> -->
 
                 </div>
 
@@ -89,11 +93,11 @@
                     
                     <h3>Tell it what to do</h3>
 
-                    <video autoplay loop>
+                    <!-- <video autoplay loop>
                         <source src="./dist/script.webm" type="video/webm">
                         <source src="./dist/script.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                    </video>
+                    </video> -->
 
                 </div>
 
@@ -101,17 +105,17 @@
 
                     <h3>Battle other players!</h3>
 
-                    <video autoplay loop>
+                    <!-- <video autoplay loop>
                         <source src="./dist/battle.webm" type="video/webm">
                         <source src="./dist/battle.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                    </video>
+                    </video> -->
 
                 </div>
 
                 <div class="download">
                     <a class="button is-large is-link play-button" href="https://play.bot.land" title="Play Bot Land">Play in browser now!</a>
-                    <div class="details">iOS and Android apps coming in 2018</div>
+                    <!-- <div class="details">iOS and Android apps coming in 2018</div> -->
                 </div>
             
             </div>
@@ -122,43 +126,57 @@
 
             <div class="container">
 
-                <div class="content has-text-centered">
+                <div class="content">
 
-                    <a class="button" href="https://twitter.com/Xtonomous" title="Twitter" target="_blank" rel="noopener noreferrer">
-                        <span class="icon is-large">
-                            <i class="fa-2x fa fa-twitter"></i>
-                        </span>
-                    </a>
+                    <!-- circut board border -->
+                    <div class="border-pattern">
+                        <div class="left"></div>
+                        <div class="center"><div class="inner"></div></div>
+                        <div class="right"></div>
+                    </div>
+                    
+                    <img class="cpu fixed is-hidden-touch" src="./dist/cpu.png" alt="Bot Land">
 
-                    <a class="button" href="https://www.facebook.com/BotLandGame" title="Facebook" target="_blank" rel="noopener noreferrer">
-                        <span class="icon is-large">
-                            <i class="fa-2x fa fa-facebook"></i>
-                        </span>
-                    </a>
+                    <div class="level">
 
-                    <a class="button" href="https://www.youtube.com/channel/UCJFxRNHar-c_lKYxFMIPg_g" title="YouTube" target="_blank" rel="noopener noreferrer">
-                        <span class="icon is-large">
-                            <i class="fa-2x fa fa-youtube-play"></i>
-                        </span>
-                    </a>
+                        <div class="level-left">
 
-                    <a class="button" href="https://twitch.tv/Adam13531" title="Twitch" target="_blank" rel="noopener noreferrer">
-                        <span class="icon is-large">
-                            <i class="fa-2x fa fa-twitch"></i>
-                        </span>
-                    </a>
+                            <div>
 
-                    <a class="button" href="https://www.reddit.com/r/BotLand" title="reddit" target="_blank" rel="noopener noreferrer">
-                        <span class="icon is-large">
-                            <i class="fa-2x fa fa-reddit-alien"></i>
-                        </span>
-                    </a>
+                                <img src="https://d3dby02bhz36nw.cloudfront.net/0.1.75_98d3692eb042b749489f/images/ui/bot_land_logo_horizontal.png" alt="Bot Land" class="logo" />
+                                
+                                <div class="social-icons">
+            
+                                    <a class="icon_3" href="https://twitter.com/Xtonomous" title="Twitter" target="_blank" rel="noopener noreferrer"></a>
+                                        
+                                    <a class="icon_2" href="https://www.facebook.com/BotLandGame" title="Facebook" target="_blank" rel="noopener noreferrer"></a>
+            
+                                    <a class="icon_4" href="https://www.youtube.com/channel/UCJFxRNHar-c_lKYxFMIPg_g" title="YouTube" target="_blank" rel="noopener noreferrer"></a>
+                                    
+                                    <a class="icon_1" href="https://twitch.tv/Adam13531" title="Twitch" target="_blank" rel="noopener noreferrer"></a>
+                                    
+                                    <a class="icon_5" href="https://www.reddit.com/r/BotLand" title="reddit" target="_blank" rel="noopener noreferrer"></a>
+            
+                                    <a class="icon_0" href="https://discord.gg/botland" title="discord" target="_blank" rel="noopener noreferrer"></a>
+            
+                                </div>
+                            
+                            </div>
 
-                    <a class="button" href="https://discord.gg/botland" title="discord" target="_blank" rel="noopener noreferrer">
-                        <span class="icon is-large">
-                            <i class="bli bli-discord"></i>
-                        </span>
-                    </a>
+                        </div>
+
+                        <div class="level-item">
+                            <img class="cpu is-hidden-desktop" src="./dist/cpu.png" alt="Bot Land">
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="bottom">
+                        <p>Version: Alpha | Copyright 2017 | <a href="#wikiLink">Wiki</a> | <a href="#otherLink">Other Link</a> | <a href="#otherLink">Go Crazy</a>  </p>
+                        <small>social icons made by Freepik from www.flaticon.com</small>
+                    </div>
 
                 </div>
 
