@@ -11,6 +11,7 @@
     "devcommands": "yarn run moveimages && yarn run build:css",
     "build": "yarn run devcommands && postcss --use autoprefixer --output dist/style.css dist/style.css",
     "moveimages": "mkdir dist && cp -r assets/images/* dist/",
+    "serve": "http-server ./ -p 4321",
     "build:css": "node-sass assets/sass/style.scss dist/style.css"
   },
   "devDependencies": {
